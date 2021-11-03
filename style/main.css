@@ -37,6 +37,7 @@ header nav a {
     color: #AAA;
     margin-right: 10px;
     transition: .3s ease all;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -92,3 +93,31 @@ header nav a:hover {
 main .container {
     width: 70%;
 }
+
+.box_filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel_filmes {
+    margin-top: 5px;
+}
+
+@media (max-width: 525px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
+
